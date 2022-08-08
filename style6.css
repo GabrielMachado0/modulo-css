@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+:root {
+    --corsite: blue;
+    --widthsite: 300px;
+}
+
+div {
+    background-color: var(--corsite);
+    max-width: var(--widthsite);
+    margin: 0 auto;
+    padding: 2px;
+    margin-top: 10px;
+}

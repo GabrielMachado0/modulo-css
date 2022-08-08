@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 17px;
+    font-weight: normal;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.mundo {
+    color: red;
+}
+
+/*Utilizando a tag + classe o grau de prioridade é maior */
+p.paragrafo {
+    color: brown;
+}
+
+/*Utilizando somente a classe o grau de prioridade é menor */
+.paragrafo {
+    color: blue;
+}
+
+/*Chamando um parametro proprio criado */
+[name=paragrafo] {
+    color: violet;
+}
+
+/*Estilizando inputs*/
+
+[type=text] {
+    width: 500px;
+}
+
+[type=button] {
+    color: blue;
+}
+
+div {
+    background-color: brown;
+}
+
+h2 {
+    color: blue;
+}
+
+.bg {
+    width: 100%;
+    height: 900px;
+    background-image: url('../bridge.jpg');
+    background-repeat: no-repeat;
+    background-color: cyan;
+    background-position: center;
+    background-size: cover;
+}
